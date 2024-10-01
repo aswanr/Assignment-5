@@ -301,7 +301,6 @@ a{
     top: -90px;
 }
 .card-hed{
-    border: 2px solid rgba(249, 250, 251, 0.3);
     width: 416px;
     height: 65px;
     text-align: center;
@@ -318,6 +317,7 @@ a{
     color:rgba(255, 255, 255, 1);
 }
 .card-img{
+    border: 2px solid rgba(249, 250, 251, 0.3);
     width: 416px;
     height: 307px;
 }
