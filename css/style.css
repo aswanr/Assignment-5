@@ -57,14 +57,39 @@ a{
     height: 66px;
     border-radius: 60px;
 }
-#jcrea{
+.jcrea{
     width: 244px;
     height: 86px;
+    position: relative;
 }
-#jcrea a{
+.jcrea a{
     display: inline-flex;
     align-items: center;
     gap: 10px;
+}
+#effect{
+    color:  rgba(152, 162, 179, 1);
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: -0.015em;
+}
+.jcrea-auth{
+    font-size: 20px;
+    position: absolute;
+    top: 13px;
+    left: 120px;
+    opacity: 0%;
+}
+.jcrea:hover .jcrea-name-log{
+    opacity: 0%;
+}
+.jcrea:hover .jcrea-auth{
+    opacity: 100%;
+}
+.jcrea:hover img{
+    position: relative;
+    right: 10px;
 }
 .firsthead-cond{
     width: 908px;
