@@ -259,7 +259,7 @@ a{
     display: flex;
     justify-content: space-between;
     position: relative;
-    top: 66px;
+    top: 120px;
     padding: 0px 80px;
 }
 .main-head{
@@ -290,13 +290,12 @@ a{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: 300px;
+    margin-top: 400px;
     gap: 25px;
 }
 .card{
     width: 416px;
     background-color: rgba(104, 104, 104, 0.2);
-    border: 2px solid  rgba(104, 104, 104, 0.2);
     border-radius: 30px;
     display: flex;
     flex-direction: column;
@@ -330,11 +329,12 @@ a{
 .card-img{
     width: 416px;
     height: 307px;
+    position: relative;
+    top: -204px;
 }
 .card-img img{
     width: 100%;
     object-position: center;
-    clip-path: path(' M 0 0 Q 0 0 1543 0 L 319 250 L 0 1513 Z');
     object-fit: cover;
     background: no-repeat;
 }
