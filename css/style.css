@@ -57,6 +57,15 @@ a{
     height: 66px;
     border-radius: 60px;
 }
+.hover-nav:hover{
+    background-color:rgba(29, 41, 57, 1);
+    width: 150px;
+    height: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+}
 .jcrea{
     width: 244px;
     height: 86px;
