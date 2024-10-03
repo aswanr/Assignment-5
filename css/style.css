@@ -278,7 +278,7 @@ a{
     line-height: 26.1px;
     letter-spacing: -0.015em;
     text-align: left;
-    width: 546px;
+    width: 576px;
     height: 52px;
     color: var(--white, rgba(255, 255, 255, 1));
 }
@@ -359,8 +359,7 @@ a{
 }
 .cardarrow img{
     width: 72px;
-    height: 72px;
-    
+    height: 72px; 
 }
 
 /* Last-section */
