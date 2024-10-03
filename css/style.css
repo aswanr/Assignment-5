@@ -142,6 +142,11 @@ a{
     border-radius:38.24px;
     background-color:  rgba(255, 255, 255, 0.1);
     border: 1px solid ;
+    font-family: "Lufga";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26.1px;
+    letter-spacing: -0.015em;
 }
 .head-btn img{
     position: relative;
@@ -330,7 +335,8 @@ a{
     width: 100%;
     object-position: center;
     clip-path: path(' M 0 0 Q 0 0 1543 0 L 319 250 L 0 1513 Z');
-    object-fit: contain;
+    object-fit: cover;
+    background: no-repeat;
 }
 .sliding-img{
     position: relative;
