@@ -9,20 +9,25 @@
 }
 .first{
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .fist-container{
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .navcondiner{
     display:flex;
     justify-content: center;
     align-items: center;
-    width: 1150px;
-    height: 80px;
+    width: 1298px;
     border-radius: 50px;
     border: 2px solid;
     position: relative;
-    left: 150px;
     top: 40px;
     background-color:rgba(23, 23, 23, 1);
 }
@@ -36,6 +41,7 @@ ul{
     font-weight: 700;
     line-height: 26.1px;
     letter-spacing: -0.015em;
+    gap: 25px;
 }
 ul li{
     width: 150px;
@@ -107,17 +113,16 @@ a{
     align-items: center;
     justify-content: center;
     position: relative;
-    left: 284px;
     top: 80px;
     font-family: "Lufga";
 }
 .reviews-continer{
     display: flex;
     width: 100%;
-    justify-content: space-between;
+    justify-content: center;
     position: relative;
-    top: 396px;
-    padding: 0px 80px;
+    top: 158px;
+    gap: 797px;
 }
 .review-1{
     width: 328px;
@@ -197,8 +202,8 @@ a{
     line-height: 95.57px;
     letter-spacing: -0.015em;
     text-align: center;
-    position: absolute;
-    top: -17px;
+    text-align: center;
+    margin-top: -100px;
 }
 .head-firstcond img{
     position: relative;
@@ -212,6 +217,7 @@ a{
     align-items: center;
     justify-content: center;
     position: relative;
+    margin-top: -214px;
 }
 .tran-button {
     height: 62px;
@@ -247,7 +253,7 @@ a{
 .half-circle{
     width: 811px;
     height: 406px;
-    background-color:#FD853A;
+    background-color: rgba(254, 178, 115, 1);
     border-top-left-radius: 406px;
     border-top-right-radius: 406px; 
     margin-top: -410px;
