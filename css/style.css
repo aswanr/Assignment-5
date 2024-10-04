@@ -335,16 +335,10 @@ a{
     gap: 25px;
 }
 .card{
-    width: 416px;
-    background-color: rgba(104, 104, 104, 0.2);
-    border-radius: 30px;
-    display: flex;
-    flex-direction: column;
-    gap: 100px;
     position: relative;
-    top: -130px;
+    margin-top: 164px;
+    top: -191px;
 }
-
 .line{
     width: 100%;
     border: 2px solid rgba(249, 250, 251, 0.3);
