@@ -6,12 +6,14 @@
 .all-sections{
     width: 100%;
     background-color:  rgba(255, 255, 255, 1);
-}
-.first{
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+.first{
+    width: 100%;
+    max-width: 1440px;
 }
 .fist-container{
     width: 100%;
@@ -32,7 +34,7 @@
     top: 40px;
     background-color:rgba(23, 23, 23, 1);
 }
-ul{
+.firstnav-ulcondiner{
     display: inline-flex;
     list-style: none;
     align-items: center;
@@ -42,9 +44,9 @@ ul{
     font-weight: 700;
     line-height: 26.1px;
     letter-spacing: -0.015em;
-    gap: 25px;
+    gap: 40px;
 }
-ul li{
+.firstnav-ulcondiner li{
     width: 150px;
     height: 66px;
     display: flex;
@@ -91,10 +93,10 @@ a{
     letter-spacing: -0.015em;
 }
 .jcrea-auth{
-    font-size: 20px;
+    font-size: 14px;
     position: absolute;
-    top: 13px;
-    left: 120px;
+    top: 8px;
+    left: 74px;
     opacity: 0%;
 }
 .jcrea:hover .jcrea-name-log{
@@ -275,11 +277,423 @@ a{
 .girlimg{
     z-index: 1;
 }
-
+/* media Query */
+@media(max-width:426px){
+    .fist-container{
+        width: 100%;
+    }
+    .navcondiner{
+        left: 0px;
+        top: 0px;
+        width: 320px;
+        height: 27px;
+    }
+    .firstnav-ulcondiner{
+        font-size: 7px;
+        font-weight: 400;
+        line-height: 5.1px;
+        gap: 10px;
+    }
+    .firstnav-ulcondiner li{
+        width: 36px;
+    }
+    .jcrea{
+        width: 50px;
+    }
+    #home{
+        width: 39px;
+        height: 23px;
+    }
+    .jcrea-auth{
+        font-size: 6px;
+        top: 24px;
+        left: 10px;
+        line-height: 7px;
+        width: 46px;
+    }
+    .jcrea img{
+        width: 20px;
+    }
+    #effect{
+        color: rgba(152, 162, 179, 1);
+        font-size: 4px;
+        font-weight: 400;
+        line-height: 8px;
+        letter-spacing: -0.015em;
+    }
+    .firsthead-cond{
+        width: 100%;
+        top: 25px;
+    }
+    .head-btn{
+        width: 65px;
+        margin-top: 40px;
+        position: relative;
+        top: -47px;
+    }
+    .head-btn button{
+        font-size: 12px;
+        height: 25px;
+    }
+    .head-firstcond{
+        font-size: 95.57px;
+        font-weight: 600;
+        line-height: 95.57px;
+        letter-spacing: -0.015em;
+    }
+    .head-firstcond{
+        font-size: 30.57px;
+        font-weight: 600;
+        line-height: 32.57px;
+    }
+    .head-firstcond img{
+        width: 22px;
+        left: -130px;
+        top: 92px;
+    }
+    .head-btn img{
+        position: relative;
+        top: -15px;
+        right: 5px;
+        width: 18px;
+    }
+    .girlimg-container{
+        margin-top: -164px;
+    }
+    .girlimg img{
+        width: 100%;
+        margin-top: 68px;
+    }
+    .half-circle{
+        width: 268px;
+        height: 169px;
+        margin-top: -173px;
+    }
+    .reviews-continer{
+        gap: 135px;
+        top: 37px;
+    }
+    .review-2 p{
+        font-size: 13px;
+    }
+    .review-2 h1{
+        font-family: "Urbanist";
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 0px;
+        letter-spacing: -0.015em;
+        text-align: center;
+    }
+    .review-1 p{
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 10.1px;
+        letter-spacing: -0.015em;
+        text-align: left;
+    }
+    .review-1{
+        width: 110px;
+        height: 61px;
+    }
+    .review-2{
+        width: 60px;
+        height: 61px;
+        gap: 11px;
+    }
+    .tran-button{
+        width: 117px;
+        height: 0;
+        top: 264px;
+    }
+    .tran-bt1 img{
+        width: 10px;
+        height: 20px;
+    }
+    .tran-button button{
+        font-size: 8px;
+        width: 59px;
+        height: 17px;
+        position: relative;
+        top: -12px;
+        left: -8px;
+    }
+    .tran-bt2{
+        width: 24px;
+        font-size: 9px;
+        line-height: 8px;
+        padding-left: 0px;
+        position: relative;
+        top: -12px;
+    }
+}
+@media(min-width:426px) and (max-width:768px){
+    .fist-container{
+        width: 100%;
+    }
+    .navcondiner{
+        left: 0px;
+        top: 0px;
+        width: 420px;
+        height: 45px;
+    }
+    .firstnav-ulcondiner{
+        font-size: 7px;
+        font-weight: 400;
+        line-height: 5.1px;
+        gap: 18px;
+    }
+    .firstnav-ulcondiner li{
+        width: 40px;
+    }
+    .jcrea{
+        width: 40px;
+    }
+    #home{
+        width: 54px;
+        height: 31px;
+    }
+    .jcrea-auth{
+        font-size: 5px;
+        top: 26px;
+        left: 11px;
+    }
+    .jcrea img{
+        width: 25px;
+    }
+    #effect{
+        font-size: 7px;
+        font-weight: 400;
+        line-height: 8px;
+    }
+    .firsthead-cond{
+        width: 100%;
+        top: 25px;
+    }
+    .head-btn{
+        width: 92px;
+        margin-top: 36px;
+        position: relative;
+        top: -43px;
+    }
+    .head-btn button{
+        font-size: 12px;
+        height: 25px;
+    }
+    .head-btn img{
+        position: relative;
+        top: -15px;
+        right: 5px;
+        width: 30px;
+    }
+    .head-firstcond{
+        font-size: 50px;
+        font-weight: 600;
+        line-height: 50.57px;
+        letter-spacing: -0.015em;
+    }
+    .head-firstcond img{
+        width: 33px;
+        top: 140px;
+        right: 205px;
+    }
+    .girlimg-container{
+        margin-top: -240px;
+    }
+    .girlimg{
+        width: 400px;
+    }
+    .girlimg img{
+        width: 100%;
+        margin-top: 121px;
+    }
+    .half-circle{
+        width: 320px;
+        height: 150px;
+        margin-top: -154px;
+    }
+    .reviews-continer{
+        gap: 145px;
+        top: 52px;
+    }
+    .review-2 h1{
+        font-family: "Urbanist";
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 0px;
+        letter-spacing: -0.015em;
+        text-align: center;
+    }
+    .review-1 p{
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 10.1px;
+        letter-spacing: -0.015em;
+        text-align: left;
+    }
+    .review-1{
+        width: 160px;
+        height: 52px;
+    }
+    .review-2{
+        width: 110px;
+        height: 61px;
+    }
+    .tran-button{
+        width: 134px;
+        height: 40px;
+        top: 369px;
+    }
+    .tran-bt1 img{
+        width: 20px;
+        height: 20px;
+    }
+    .tran-button button{
+        font-size: 10px;
+        width: 68px;
+        height: 30px;
+        position: relative;
+        top: -5px;
+        right: 6px;
+    }
+    .tran-bt2{
+        width: 24px;
+        font-size: 11px;
+        line-height: 8px;
+        padding-left: 0px;
+        position: relative;
+        top: -5px;
+    }
+}
+@media(min-width:769px) and (max-width:1300px){
+    .fist-container{
+        width: 100%;
+    }
+    .navcondiner{
+        left: 0px;
+        top: 20px;
+        width: 748px;
+        height: 50px;
+    }
+    .firstnav-ulcondiner{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 5.1px;
+        gap: 37px;
+    }
+    .firstnav-ulcondiner li{
+        width: 72px;
+    }
+    .jcrea{
+        width: 160px;
+    }
+    .jcrea img{
+        width:35px;
+    }
+    #home{
+        width: 80px;
+        height: 41px;
+    }
+    #effect{
+        font-size: 12px;
+    }
+    .jcrea-auth{
+        font-size: 10px;
+        top: 11px;
+        left: 17px;
+        line-height: 14px;
+    }
+    .firsthead-cond{
+        gap: 20px;
+        width: 100%;
+        top: 50px;
+    }
+    .head-btn{
+        width: 92px;
+    }
+    .head-btn button{
+        font-size: 12px;
+        height: 25px;
+    }
+    .head-firstcond{
+        font-size: 60px;
+        font-weight: 600;
+        line-height: 61.57px;
+    }
+    .head-firstcond img{
+        width: 45px;
+        top: 177px;
+        right: 250px;
+    }
+    .girlimg-container{
+        margin-top: -230px;
+    }
+    .girlimg{
+        width: 470px;
+    }
+    .girlimg img{
+        width: 100%;
+        margin-top: 121px;
+    }
+    .half-circle{
+        width: 388px;
+        height: 197px;
+        margin-top: -201px;
+    }
+    .reviews-continer{
+        gap: 561px;
+        top: 83px;
+    }
+    .review-2 h1{
+        font-family: "Urbanist";
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 0px;
+        letter-spacing: -0.015em;
+        text-align: center;
+    }
+    .review-1 p{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 15.1px;
+    }
+    .review-1{
+        width: 200px;
+        height: 61px;
+    }
+    .review-2{
+        width: 110px;
+        height: 61px;
+    }
+    .tran-button{
+        width: 134px;
+        height: 39px;
+        top: 415px;
+    }
+    .tran-bt1 img{
+        width: 20px;
+        height: 20px;
+    }
+    .tran-button button{
+        font-size: 10px;
+        width: 68px;
+        height: 30px;
+        position: relative;
+        top: -5px;
+        right: 6px;
+    }
+    .tran-bt2{
+        width: 24px;
+        font-size: 11px;
+        line-height: 8px;
+        padding-left: 0px;
+        position: relative;
+        top: -5px;
+    }
+}
 /* second section */
-
 .second{
     width: 100%;
+    max-width: 1440px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -393,10 +807,120 @@ a{
     width: 72px;
     height: 72px; 
 }
-
+/* second media*/
+@media(max-width:426px){
+    .main-head{
+        font-size: 16px;
+        line-height: 23px;
+    }
+    .second-headcond{
+        flex-direction: column;
+        top: 50px;
+    }
+    .head-para{
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14.1px;
+        width: 100%;
+        height: 100%;
+    }
+    .cards-list{
+        flex-direction: column;
+    }
+    .card-img{
+        width: 255px;
+        height: 230px;
+        position: relative;
+        top: -355px;
+    }
+    .card{
+        width: 271px;
+    }
+    .card-img h1{
+        width: 250px;
+        font-size: 20px;
+    }
+    .cardarrow{
+        width: 75px;
+        height: 75px;
+        left: 186px;
+        top: -77px;
+    }
+    .cardarrow img{
+        width: 45px;
+        height: 38px;
+    }
+}
+@media(min-width:426px) and (max-width:768px){
+    .main-head{
+        font-size: 30px;
+        line-height: 32px;
+    }
+    .second-headcond{
+        flex-direction: column;
+        top: 50px;
+    }
+    .head-para{
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 29.1px;
+        width: 330px;
+    }
+    .cards-list{
+        flex-direction: column;
+    }
+    .card-img{
+        width: 330px;
+        height: 314px;
+        position: relative;
+        top: -355px;
+    }
+    .card{
+        width: 327px;
+    }
+    .card-img h1{
+        width: 250px;
+        font: 25px;
+    }
+    .cardarrow{
+        width: 98px;
+        height: 98px;
+        left: 245px;
+        top: -101px;
+    }
+    .cardarrow img{
+        width: 45px;
+        height: 38px;
+    }
+    .sliding-img{
+        top: -120px;
+    }
+}
+@media(min-width:768px) and (max-width:1300px){
+    .card-img{
+        width: 233px;
+        height: 246px;
+    }
+    .cardarrow{
+        width: 70px;
+        height: 70px;
+        left: 172px;
+        top: -71px;
+    }
+    .main-head{
+        font-size: 30px;
+    }
+    .cardarrow img{
+        width: 40px;
+        height: 23px;
+    }
+    .card-img h1{
+        width: 230px;
+    }
+}
 /* Last-section */
-
 .third{
+    max-width: 1440px;
     width: 100%;
 }
 .third-container{
@@ -451,17 +975,17 @@ a{
     height: 100%;
     object-fit: contain;
 }
-.t1-1 {
+.third-headcondiner{
     display: flex;
     flex-direction: column;
     gap: 14px;
 }
-.t1-2 {
+.third-headcondiner2 {
     display: flex;
     flex-direction: column;
     gap: 14px;
 }
-.t1-2 p{
+.third-headcondiner2 p{
     font-family: Lufga;
     font-size: 24px;
     font-weight: 400;
@@ -470,7 +994,7 @@ a{
     text-align: left;
     color:  rgba(152, 162, 179, 1);
 }
-.t1-1 p{
+.third-headcondiner p{
     font-family: Lufga;
     font-size: 24px;
     font-weight: 400;
@@ -478,4 +1002,94 @@ a{
     letter-spacing: -0.015em;
     text-align: left;
     color:  rgba(152, 162, 179, 1);
+}
+/* last media*/
+@media(max-width:426px){
+    .third-head{
+        height: 35px;
+        font-size: 30px;
+        padding: 54px 0px;
+    }
+    .left-flow{
+        transform: rotate(90deg);
+        width: 25px;
+    }
+    .third-lower{
+        flex-direction: column;
+        gap: 0px;
+    }
+    .left-exp{
+        gap: 0px;
+        width: 298px;
+        height: 252px;
+    }
+    .left-flow{
+        display: none;
+    }
+    .left-exp2{
+        gap: 0px;
+        width: 298px;
+        height: 284px;
+    }
+    .text-thirds{
+        font-size: 20px;
+    }
+    .third-headcondiner p{
+        font-size: 12px;
+        gap: 0px;
+    }
+    .third-headcondiner2 p{
+        font-size: 12px;
+        gap: 0px;
+    }
+}
+@media(min-width:426px) and (max-width:768px){
+    .third-head{
+        font-size: 50px;
+        padding: 54px 0px;
+    }
+    .text-thirds{
+        font-size: 28px;
+    }
+    .left-flow{
+        width: 25px;
+        height: 263px;
+    }
+    .third-lower{
+        gap: 40px;
+    }
+    .left-exp{
+        gap: 95px;
+        width: 298px;
+    } 
+    .left-exp2{
+        gap: 5px;
+        width: 298px;
+    }
+    .left-flow{
+        width: 60px;
+        height: 430px;
+    }
+    .left-flow img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+@media(min-width:768px) and (max-width:1300px){
+    .left-flow{
+        width: 55px;
+        height: 440px;
+    }
+    .left-flow img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .left-exp{
+        gap: 91px;
+    }
+    .left-exp2{
+        gap: 46px;
+    }   
 }
