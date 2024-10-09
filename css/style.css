@@ -12,11 +12,9 @@
     flex-direction: column;
 }
 .first{
-    width: 100%;
     max-width: 1440px;
 }
 .fist-container{
-    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -43,7 +41,7 @@
     font-size: 20px;
     font-weight: 700;
     line-height: 26.1px;
-    letter-spacing: -0.015em;
+    letter-spacing:-0.3px;
     gap: 40px;
 }
 .firstnav-ulcondiner li{
@@ -90,7 +88,7 @@ a{
     font-size: 14px;
     font-weight: 300;
     line-height: 24px;
-    letter-spacing: -0.015em;
+    letter-spacing:-0.3px;
 }
 .jcrea-auth{
     font-size: 14px;
@@ -137,13 +135,13 @@ a{
     gap: 20px;
 }
 .review-1 img{
-    width: 12%;
+    width: 36px;
 }
 .review-1 p{
     font-size: 20px;
     font-weight: 500;
     line-height: 26.1px;
-    letter-spacing: -0.015em;
+    letter-spacing:-0.3px;
     text-align: left;
 }
 .review-2{
@@ -160,7 +158,7 @@ a{
     font-size: 47px;
     font-weight: 700;
     line-height: 47px;
-    letter-spacing: -0.015em;
+    letter-spacing: -0.3px;
     text-align: center;
 }
 .review-2 p{
@@ -169,7 +167,7 @@ a{
     font-size: 20px;
     font-weight: 400;
     line-height: 20px;
-    letter-spacing: -0.015em;
+    letter-spacing: -0.3px;
 }
 .head-btn{
     width: 127px;
@@ -188,7 +186,7 @@ a{
     font-size: 20px;
     font-weight: 500;
     line-height: 26.1px;
-    letter-spacing: -0.015em;
+    letter-spacing: -0.3px;
 }
 .head-btn img{
     position: relative;
@@ -203,7 +201,7 @@ a{
     font-size: 95.57px;
     font-weight: 600;
     line-height: 95.57px;
-    letter-spacing: -0.015em;
+    letter-spacing: -0.3px;
     text-align: center;
     text-align: center;
     margin-top: -100px;
@@ -250,7 +248,7 @@ a{
     font-size: 25.69px;
     font-weight: 500;
     line-height: 33.53px;
-    letter-spacing: -0.015em;
+    letter-spacing: -0.3px;
     font-family: "Lufga";
 }
 .half-circle{
@@ -269,7 +267,7 @@ a{
     font-size: 25.69px;
     font-weight: 500;
     line-height: 33.53px;
-    letter-spacing: -0.015em;
+    letter-spacing: -0.3px;
     text-align: center;
     border: 0px;
     color: #FFFFFF;
@@ -319,7 +317,7 @@ a{
         font-size: 4px;
         font-weight: 400;
         line-height: 8px;
-        letter-spacing: -0.015em;
+        letter-spacing:-0.3px;
     }
     .firsthead-cond{
         width: 100%;
@@ -339,7 +337,7 @@ a{
         font-size: 95.57px;
         font-weight: 600;
         line-height: 95.57px;
-        letter-spacing: -0.015em;
+        letter-spacing: -0.3px;
     }
     .head-firstcond{
         font-size: 30.57px;
@@ -381,14 +379,14 @@ a{
         font-size: 18px;
         font-weight: 400;
         line-height: 0px;
-        letter-spacing: -0.015em;
+        letter-spacing: -0.3px;
         text-align: center;
     }
     .review-1 p{
         font-size: 10px;
         font-weight: 400;
         line-height: 10.1px;
-        letter-spacing: -0.015em;
+        letter-spacing: -0.3px;
         text-align: left;
     }
     .review-1{
@@ -489,7 +487,7 @@ a{
         font-size: 50px;
         font-weight: 600;
         line-height: 50.57px;
-        letter-spacing: -0.015em;
+        letter-spacing: -0.3px;
     }
     .head-firstcond img{
         width: 33px;
@@ -520,14 +518,14 @@ a{
         font-size: 18px;
         font-weight: 400;
         line-height: 0px;
-        letter-spacing: -0.015em;
+        letter-spacing: -0.3px;
         text-align: center;
     }
     .review-1 p{
         font-size: 10px;
         font-weight: 400;
         line-height: 10.1px;
-        letter-spacing: -0.015em;
+        letter-spacing: -0.3px;
         text-align: left;
     }
     .review-1{
@@ -640,7 +638,7 @@ a{
         margin-top: -201px;
     }
     .reviews-continer{
-        gap: 561px;
+        gap: 465px;
         top: 83px;
     }
     .review-2 h1{
@@ -648,7 +646,7 @@ a{
         font-size: 18px;
         font-weight: 400;
         line-height: 0px;
-        letter-spacing: -0.015em;
+        letter-spacing: -0.3px;
         text-align: center;
     }
     .review-1 p{
@@ -722,20 +720,20 @@ a{
     font-size: 48px;
     font-weight: 500;
     line-height: 48px;
-    letter-spacing: -0.015em;
+    letter-spacing: -0.3px;
     text-align: left;
-    color: var(--white, rgba(255, 255, 255, 1));
+    color:  rgba(255, 255, 255, 1);
 }
 .head-para{
     font-family: "Lufga";
     font-size: 20px;
     font-weight: 500;
     line-height: 26.1px;
-    letter-spacing: -0.015em;
+    letter-spacing: -0.3px;
     text-align: left;
     width: 576px;
     height: 52px;
-    color: var(--white, rgba(255, 255, 255, 1));
+    color: rgba(255, 255, 255, 1);
 }
 .cards-condainer{
     width:100%;
@@ -767,7 +765,7 @@ a{
     font-size: 32px;
     font-weight: 500;
     line-height: 41.77px;
-    letter-spacing: -0.015em;
+    letter-spacing: -0.3px;
     color:rgba(255, 255, 255, 1);
     position: relative;
     top: 133px;
@@ -933,7 +931,7 @@ a{
     font-size: 64px;
     font-weight: 500;
     line-height: 64px;
-    letter-spacing: -0.015em;
+    letter-spacing: -0.3px;
     padding: 80px 0px;
 }
 .third-lower{
@@ -947,7 +945,7 @@ a{
     font-size: 40px;
     font-weight: 600;
     line-height: 40px;
-    letter-spacing: -0.015em;
+    letter-spacing: -0.3px;
     text-align: left;
     color: rgba(52, 64, 84, 1);
 }
@@ -986,20 +984,20 @@ a{
     gap: 14px;
 }
 .third-headcondiner2 p{
-    font-family: Lufga;
+    font-family: "Lufga";
     font-size: 24px;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: -0.015em;
+    letter-spacing: -0.3px;
     text-align: left;
     color:  rgba(152, 162, 179, 1);
 }
 .third-headcondiner p{
-    font-family: Lufga;
+    font-family: "Lufga";
     font-size: 24px;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: -0.015em;
+    letter-spacing: -0.3px;
     text-align: left;
     color:  rgba(152, 162, 179, 1);
 }
