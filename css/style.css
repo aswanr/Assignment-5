@@ -153,7 +153,7 @@ a{
     flex-direction: column;
     gap: 20px;
 }
-.review-2 h1{
+.review-2 h2{
     font-family: "Urbanist";
     font-size: 47px;
     font-weight: 700;
@@ -374,7 +374,7 @@ a{
     .review-2 p{
         font-size: 13px;
     }
-    .review-2 h1{
+    .review-2 h2{
         font-family: "Urbanist";
         font-size: 18px;
         font-weight: 400;
@@ -513,7 +513,7 @@ a{
         gap: 145px;
         top: 52px;
     }
-    .review-2 h1{
+    .review-2 h2{
         font-family: "Urbanist";
         font-size: 18px;
         font-weight: 400;
@@ -641,7 +641,7 @@ a{
         gap: 465px;
         top: 83px;
     }
-    .review-2 h1{
+    .review-2 h2{
         font-family: "Urbanist";
         font-size: 18px;
         font-weight: 400;
@@ -757,7 +757,7 @@ a{
     position: relative;
     top: 100px;
 }
-.card-img h1{
+.card-img h2{
     width: 416px;
     height: 100px;
     text-align: center;
@@ -834,7 +834,7 @@ a{
     .card{
         width: 271px;
     }
-    .card-img h1{
+    .card-img h2{
         width: 250px;
         font-size: 20px;
     }
@@ -876,7 +876,7 @@ a{
     .card{
         width: 327px;
     }
-    .card-img h1{
+    .card-img h2{
         width: 250px;
         font: 25px;
     }
@@ -912,7 +912,7 @@ a{
         width: 40px;
         height: 23px;
     }
-    .card-img h1{
+    .card-img h2{
         width: 230px;
     }
 }
@@ -1005,8 +1005,9 @@ a{
 @media(max-width:426px){
     .third-head{
         height: 35px;
-        font-size: 30px;
-        padding: 54px 0px;
+        font-size: 16px;
+        padding: 0px;
+        margin-bottom: 10px;
     }
     .left-flow{
         transform: rotate(90deg);
